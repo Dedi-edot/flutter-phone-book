@@ -16,6 +16,7 @@ class _RecentPageState extends State<RecentPage> {
           style: TextStyle(color: Colors.black),
           ),
         backgroundColor: Color(0xffDCDCDC),
+        elevation: 0,
         ),
       body: SafeArea(
         child: SingleChildScrollView(

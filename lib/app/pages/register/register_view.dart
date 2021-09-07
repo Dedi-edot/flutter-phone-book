@@ -20,6 +20,7 @@ class _RegisterPageState extends State<RegisterPage> {
             ))
         ],
         backgroundColor: Color(0xff05466A),
+        elevation: 0,
         ),
       body: SafeArea (
         child: SingleChildScrollView(

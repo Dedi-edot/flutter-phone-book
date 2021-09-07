@@ -21,6 +21,7 @@ class _MyContactPageState extends State<MyContactPage> {
             icon: new Icon(Icons.add, color: Colors.black,))
         ],
         backgroundColor: Color(0xffDCDCDC),
+        elevation: 0,
         ),
       body: SafeArea(
         child: SingleChildScrollView(

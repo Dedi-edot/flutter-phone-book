@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:phone_book/app/pages/detail/detail_view.dart';
 // import 'package:phone_book/app/pages/favorites/favorites_view.dart';
-import 'package:phone_book/app/pages/landing_page.dart';
+// import 'package:phone_book/app/pages/landing_page.dart';
+// import 'package:phone_book/app/pages/new_account/new_account_view.dart';
 // import 'package:phone_book/app/pages/my_contact/my_contact_view.dart';
 // import 'package:phone_book/app/pages/login/login_view.dart';
 // import 'package:phone_book/app/pages/register/register_view.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LandingPage(),
+      home: DetailPage(),
     );
   }
 }

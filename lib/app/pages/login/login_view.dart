@@ -20,6 +20,7 @@ class _LoginPageState extends State<LoginPage> {
             ))
         ],
         backgroundColor: Color(0xff05466A),
+        elevation: 0,
         ),
       body: SafeArea(
         child: SingleChildScrollView(
